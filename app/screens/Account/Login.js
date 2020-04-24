@@ -12,7 +12,7 @@ export default function Login(props) {
   return (
     <ScrollView>
       <Image
-        source={require("../../../assets/img/user-guest.png")}
+        source={require("../../../assets/img/user-guest.jpg")}
         style={styles.logo}
         resizeMode="contain"
       />
