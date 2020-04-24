@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View, ScrollView, Text, Image } from "react-native";
 import { Button } from "react-native-elements";
-import { withNavigation } from "react-navigation";
+import { withNavigation } from "react-navigation"; 
 
 function UserGuest(props) {
   const { navigation } = props;
@@ -9,16 +9,11 @@ function UserGuest(props) {
   return (
     <ScrollView style={styles.viewBody} centerContent={true}>
       <Image
-        source={require("../../../assets/img/user-guest.png")}
+        source={require("../../../assets/img/user-guest.jpg")}
         style={styles.image}
         resizeMode="contain"
       />
-      <Text style={styles.title}>Consulta tu perfil RINNOVO SANITY</Text>
-      <Text style={styles.description}>
-        Busca, visualiza y Agrega productos Sanitarios(Mascarilla,Alcohol gel, etc.)
-        Indica la ubicación de los productos para que otras personas dentro de esta aplicación,
-        pueden adquirir estos productos de manera facil y rápida, como campaña de prevención del COVID19..
-      </Text>
+      
       <View style={styles.viewBtn}>
         <Button
           buttonStyle={styles.btnStyle}
