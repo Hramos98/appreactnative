@@ -82,25 +82,11 @@ const NavigationStacks = createBottomTabNavigator(
         )
       })
     }
-    ,
-    Noticias: {
-      screen: DetailScreenStacks,
-      navigationOptions: () => ({
-        tabBarLabel: "NOTICIAS",
-        tabBarIcon: ({ tintColor }) => (
-          <Icon
-            type="material-community"
-            name="earth"
-            size={22}
-            color={tintColor}
-          />
-        )
-      })
-    }
+   
   },
   {
     initialRouteName: "Restaurants",
-    order: ["Restaurants","Favorites", "TopLists", "Search", "Noticias","Account"],
+    order: ["Restaurants","Favorites", "TopLists", "Search","Account"],
     tabBarOptions: {
       inactiveTintColor: "#646464",
       activeTintColor: "#00a680"
