@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "rinnovoapps",
+    "slug": "rinnovoapps",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splashcreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.rinnovo.com",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.rinnovo.com",
+      "permissions": [
+        "CAMERA_ROLL",
+        "LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDG1_vePaQvRkBBMNJ8TjBnLVevg1N8oco"
+        }
+      }
+    },
+    "description": ""
+  }
+}
